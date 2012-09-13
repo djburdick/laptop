@@ -2,6 +2,7 @@ Laptop
 ======
 
 Laptop is a script to set up a Mac OS X laptop for Rails development.
+This was forked from (https://github.com/thoughtbot/laptop). Thanks to the thoughtbot guys!
 
 Requirements
 ------------
@@ -10,18 +11,13 @@ Requirements
 
 Download a compiler from the [OS X GCC Installer](https://github.com/kennethreitz/osx-gcc-installer/) if you're on Snow Leopard (OS X 10.6) or use the [Command Line Tools for XCode](https://developer.apple.com/downloads/index.action) for Lion (OS X 10.7) or Mountain Lion (OS X 10.8).
 
-* Set zsh as your login shell.
-
-To change your login shell run this from a Terminal:
-
-    chsh -s /bin/zsh
 
 Install
 -------
 
 Run the script:
 
-    zsh < <(curl -s https://raw.github.com/thoughtbot/laptop/master/mac)
+    bash < <(curl -s https://raw.github.com/djburdick/laptop/master/mac)
 
 What it sets up
 ---------------
