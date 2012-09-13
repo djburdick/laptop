@@ -3,6 +3,9 @@
 echo "Installing Bundler to build gem dependencies ..."
   gem install bundler 
 
+echo "Intalling Rails"
+  gem install rails
+
 echo "Installing the Heroku gem to interact with the http://heroku.com API ..."
   gem install heroku --no-rdoc --no-ri
 
