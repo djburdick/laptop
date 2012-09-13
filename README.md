@@ -2,7 +2,7 @@ Laptop
 ======
 
 Laptop is a script to set up a Mac OS X laptop for Rails development.
-This was forked from (https://github.com/thoughtbot/laptop). Thanks to the thoughtbot guys!
+This was forked from (https://github.com/thoughtbot/laptop). Thanks to the http://thoughtbot.com/ guys!
 
 Requirements
 ------------
