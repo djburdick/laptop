@@ -28,6 +28,7 @@ export PATH='/usr/local/bin:$PATH'" >> ~/.bashrc
 
 echo "Installing Mysql, open source DB"
   brew install mysql
+  mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
 
 echo "Installing Redis, the badass key/value DB"
   brew install redis
