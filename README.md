@@ -28,14 +28,10 @@ What it sets up
 * Heroku gem for interacting with the Heroku API
 * Heroku Config plugin for local `ENV` variables
 * Homebrew for managing operating system libraries
-* ImageMagick for cropping and resizing images
-* Postgres for storing relational data
-* Postgres gem for talking to Postgres from Ruby
-* Qt for headless JavaScript testing via Capybara Webkit
-* Rails gem for writing web applications
 * Ruby stable for writing general-purpose code
 * RVM for managing versions of the Ruby programming language
 * SSH public key for authenticating with Github and Heroku
-* Tmux for saving project state and switching between projects
+* Redis for all your key/value database needs
+* Mysql for relational database needs
 
 It should take less than 30 minutes to install (depends on your machine).
