@@ -40,6 +40,9 @@ echo "Installing ack, a good way to search through files ..."
 echo "Install macvim for vimtasticness"
   brew install -v macvim --override-system-vim
 
+echo "Install new ctags for code jumping in vim"
+  brew install ctags
+
 echo "Install vcprompt to show git branch info on commandline"
   mkdir ~/bin
   curl -sL https://github.com/djl/vcprompt/raw/master/bin/vcprompt > ~/bin/vcprompt
