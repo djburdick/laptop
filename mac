@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+echo "Checking for make..."
+  if [ "$(which make)" == '' ]; then
+	echo "You must have XCode CL tools (gcc, make etc) installed first"
+	exit 1;
+  fi
+
 echo "Checking for SSH key, generating one if it doesn't exist ..."
   [[ -f ~/.ssh/id_rsa.pub ]] || ssh-keygen -t rsa
 
